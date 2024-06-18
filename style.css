@@ -1,0 +1,45 @@
+body {
+  background: black;
+}
+.desafio {
+  height: 1000px;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.verde {
+  background: #2e8b57;
+  font-size: 3rem;
+  justify-items: center;
+  align-items: center;
+  border: 1rem solid #f4a460;
+}
+
+.verde:hover {
+  background: #db7093;
+}
+.link:visited {
+  color: black;
+}
+.crema {
+  background: #f4a460;
+  justify-items: center;
+  align-items: center;
+  border: 1rem solid #2e8b57;
+}
+.crema:hover {
+  background-color: #483d8b;
+}
+.inp-crema:focus {
+  background-color: #2e8b57;
+  color: beige;
+}
+.caja {
+  width: 300px;
+  height: 300px;
+  border-radius: 1rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
